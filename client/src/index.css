@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap");
+
+@layer base {
+  input {
+    @apply w-full border-[1px] border-gray-400 p-2 rounded-xl;
+  }
+  .asterisk {
+    @apply text-red-500 text-2xl;
+  }
+  label {
+    @apply text-lg flex items-center;
+  }
+  .span {
+    @apply text-lg;
+  }
+}
